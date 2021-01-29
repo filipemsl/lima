@@ -5,3 +5,6 @@ var hamburger = document.querySelector(".hamburger");
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
   });
+function mostrarModal () {
+  alert('Oops, essa função ainda não foi implementada :(')
+}

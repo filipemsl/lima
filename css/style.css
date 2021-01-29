@@ -1,6 +1,22 @@
+html,body {
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
 body {
     font-family: 'Source Sans Pro';
     color: #fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
 }
 
 @font-face {
@@ -8,6 +24,9 @@ body {
     font-style: normal;
     font-weight: 400;
     src: url(../fonts/Lima.woff) format('woff'), url(../fonts/Lima.woff2) format('woff2'), url(../fonts/Lima.ttf) format('ttf'), url(../fonts/Lima\ Font.svg) format('svg');
+}
+#home {
+    margin-top: 3.9rem;
 }
 
 .navbar-site {
@@ -150,6 +169,9 @@ a {
     content: '*';
 }
 
+.icon-mail-after::after, .icon-mail-before::before {
+    content: '9';
+}
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -215,6 +237,11 @@ a {
     font-size: 3em;
 }
 
+.icons.icon-lime-before:hover {
+    transition: color 0.4s ease;
+    color: #0cce6b;
+}
+
 .icons.icon-heart-before {
      padding: 0 0.1em;
      font-size: 2em;
@@ -242,3 +269,31 @@ a {
     background-color: #fff;
 }
 
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 15%, 0);
+        transform: translate3d(0, 15%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 15%, 0);
+        transform: translate3d(0, 15%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
