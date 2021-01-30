@@ -43,19 +43,59 @@ var openPhotoSwipe = function() {
   // build items array
   var items = [
       {
-          src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
-          w: 964,
-          h: 1024
+          src: '../images/Artesa.jpg',
+          w: 5000,
+          h: 3500
       },
       {
-          src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg',
-          w: 1024,
-          h: 683
+          src: '../images/DA.jpg',
+          w: 1092,
+          h: 764
       },
       {
-        src: '../images/domenico-loia-hGV2TfOh0ns-unsplash.jpg',
-        w: 5848,
-        h: 3899
+        src: '../images/Passarela.jpg',
+        w: 3507,
+        h: 2479
+      },
+      {
+        src: '../images/Acmed.jpg',
+        w: 3500,
+        h: 2520
+      },
+      {
+        src: '../images/Emporio.jpg',
+        w: 1920,
+        h: 1440
+      },
+      {
+        src: '../images/Maisa.jpg',
+        w: 1629,
+        h: 1141
+      },
+      {
+        src: '../images/Vtrine.jpg',
+        w: 3368,
+        h: 2358
+      },
+      {
+        src: '../images/Clay.jpg',
+        w: 4824,
+        h: 3376
+      },
+      {
+        src: '../images/Cecilia.jpg',
+        w: 3998,
+        h: 2297
+      },
+      {
+        src: '../images/Osiris.jpg',
+        w: 2000,
+        h: 1185
+      },
+      {
+        src: '../images/Arretado.jpg',
+        w: 2553,
+        h: 1418
       }
   ];
   

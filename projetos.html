@@ -14,8 +14,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
 </head>
 
 <body>
@@ -37,6 +38,7 @@
 
 
                 <div class="collapse navbar-collapse" id="nav-principal">
+                    <span class="sr-only">Menu principal</span>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a href="" class="nav-link">PROJETOS</a>
@@ -103,119 +105,136 @@
             <div class="container-flex bg-white pl-5 pr-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 pt-5 pb-5">
-                            <img src="./images/domenico-loia-hGV2TfOh0ns-unsplash.jpg" class="img-fluid" alt="">
+                        <div class="col-md-12 pt-5 apresentacao d-flex justify-content-center">
+                            <h1 class="text-dark">Projetos Desenvolvidos</h1>
                         </div>
-                        <div class="col-md-8 pt-5">
-                            <h1 class="text-dark">Desenvolvimento</h1>
-                            <p class="text-dark fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies ex et purus
-                                scelerisque malesuada. Suspendisse fermentum malesuada pulvinar. Aliquam erat volutpat.
-                                Aenean et aliquam metus, sit amet finibus leo. Donec velit neque, gravida id malesuada vel,
-                                congue a orci. Fusce urna libero, placerat et risus ac, tincidunt lobortis sapien. Proin
-                                molestie dui sed eros imperdiet fermentum. Fusce dictum dui sed auctor faucibus. Nunc ut
-                                placerat libero, ac egestas leo.
-                            </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <h4 class="text-secondary pb-5"> Projetos desenvolvidos para diversos clientes, durante os meus 3 anos de experiência e atuação efetiva na área. 
+                            </h4>
                         </div>
                     </div>
                 </div>
+                <div class="row pb-5" >
+                <div class="col-md-4"><img class="img-fluid" src="./images/Artesa.jpg" alt=""></div>
+                <div class="col-md-4"><img class="img-fluid" src="./images/DA.jpg" alt=""></div>
+                <div class="col-md-4"><img class="img-fluid" src="./images/Passarela.jpg" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center pb-5">
+                    <h4 class="text-secondary">Confira mais projetos clicando no botão "Portfólio Completo" abaixo</h4>
+                </div>
+            </div>
                 <div class="row">
                     <div class="col-md-12 d-flex justify-content-center pb-5">
                         <button class="btn btn-lg btn-dark" id="btn">Abrir Galeria</button>
                         <span class="pr-2"></span>
-                        <button class="btn btn-lg btn-outline-primary" onclick="seguirPortfolio()">Portfólio Completo</a></button>
+                        <button class="btn btn-lg btn-outline-primary" onclick="seguirPortfolio()">Portfólio
+                            Completo</a></button>
 
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                        <!-- Root element of PhotoSwipe. Must have class pswp. -->
+                        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+                            <!-- Background of PhotoSwipe. 
          It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
+                            <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
+                            <!-- Slides wrapper with overflow:hidden. -->
+                            <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-        <div class="pswp__container">
-            <!-- don't modify these 3 pswp__item elements, data is added later on -->
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
+                                <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+                                <div class="pswp__container">
+                                    <!-- don't modify these 3 pswp__item elements, data is added later on -->
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                    <div class="pswp__item"></div>
+                                </div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
+                                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                                <div class="pswp__ui pswp__ui--hidden">
 
-            <div class="pswp__top-bar">
+                                    <div class="pswp__top-bar">
 
-                <!--  Controls are self-explanatory. Order can be changed. -->
+                                        <!--  Controls are self-explanatory. Order can be changed. -->
 
-                <div class="pswp__counter"></div>
+                                        <div class="pswp__counter"></div>
 
-                <button class="pswp__button pswp__button--close" title="Fechar (Esc)"></button>
+                                        <button class="pswp__button pswp__button--close" title="Fechar (Esc)"></button>
 
-                <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
+                                        <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
 
-                <button class="pswp__button pswp__button--fs" title="Abrir tela cheia"></button>
+                                        <button class="pswp__button pswp__button--fs" title="Abrir tela cheia"></button>
 
-                <button class="pswp__button pswp__button--zoom" title="Mais/Menos Zoom"></button>
+                                        <button class="pswp__button pswp__button--zoom"
+                                            title="Mais/Menos Zoom"></button>
 
-                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
+                                        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                                        <div class="pswp__preloader">
+                                            <div class="pswp__preloader__icn">
+                                                <div class="pswp__preloader__cut">
+                                                    <div class="pswp__preloader__donut"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
+                                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                        <div class="pswp__share-tooltip"></div>
+                                    </div>
 
-            <button class="pswp__button pswp__button--arrow--left" title="Anterior (Seta Esquerda)">
-            </button>
+                                    <button class="pswp__button pswp__button--arrow--left"
+                                        title="Anterior (Seta Esquerda)">
+                                    </button>
 
-            <button class="pswp__button pswp__button--arrow--right" title="Próxima (Seta Direira)">
-            </button>
+                                    <button class="pswp__button pswp__button--arrow--right"
+                                        title="Próxima (Seta Direira)">
+                                    </button>
 
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+                                    <div class="pswp__caption">
+                                        <div class="pswp__caption__center"></div>
+                                    </div>
 
-          </div>
+                                </div>
 
-        </div>
+                            </div>
 
-</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <div class="modal-easter-overlay" onclick="Modaleaster.close()">
             <div class="modal-easter">
-                <div class="container" >
-                    <div class="row" onclick="Modaleaster.close()"> 
+                <div class="container">
+                    <div class="row" onclick="Modaleaster.close()">
                         <div class="col-md-12 d-flex justify-content-end mb-3"><span class="sr-only">Fechar</span>
-                        <span class="icons icon-x-before" onclick="Modaleaster.close()"></span>
+                            <span class="icons icon-x-before" onclick="Modaleaster.close()"></span>
                         </div>
                         <div class="col-md-12">
-                    <h1 class="text-dark pb-2 text-easter">Parabéns! <br> Você encontrou um easter egg!</h1>
-                    <div class="d-flex justify-content-center pb-5"><img src="./images/easteregg.svg" width="100" alt=""></div>
-                    <h5 class="text-center text-muted pb-2">O que isso significa? Hmmm... Não muito. <br>
-                        Mas você pode entrar em contato comigo e dizer
-                        que o achou, o que acha?
-                    </h5>
-                    <h6 class="text-center text-dark">(Inspecionar o código é considerado trapaça &#x1F440;)</h6>
-            </div>
-            </div>
-            </div>
+                            <h1 class="text-dark pb-2 text-easter">Parabéns! <br> Você encontrou um easter egg!</h1>
+                            <div class="d-flex justify-content-center pb-5"><img src="./images/easteregg.svg"
+                                    width="100" alt=""></div>
+                            <h5 class="text-center text-muted pb-2">O que isso significa? Hmmm... Não muito. <br>
+                                Mas você pode entrar em contato comigo e dizer
+                                que o achou, o que acha?
+                            </h5>
+                            <h6 class="text-center text-dark">(Inspecionar o código é considerado trapaça &#x1F440;)
+                            </h6>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-    
+
     <footer id="footer-dev" class="fixed-bottom">
         <div class="container-flex size-footer">
             <div class="row ml-5 mr-5 p-0 mt-0 mb-0">
@@ -256,7 +275,7 @@
         crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script>
-    <script  src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 

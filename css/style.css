@@ -1,4 +1,4 @@
-html,body {
+html, body {
     height: 100vh;
     scroll-behavior: smooth;
 }
@@ -6,11 +6,10 @@ html,body {
 body {
     font-family: 'Source Sans Pro';
     color: #fff;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
-    
 }
 
 h1 {
@@ -26,9 +25,9 @@ h1 {
     font-weight: 400;
     src: url(../fonts/Lima.woff) format('woff'), url(../fonts/Lima.woff2) format('woff2'), url(../fonts/Lima.ttf) format('ttf'), url(../fonts/Lima\ Font.svg) format('svg');
 }
+
 #home {
     margin-top: 3.9rem;
-    
 }
 
 a {
@@ -69,44 +68,38 @@ a {
     display: inline-block;
 }
 
-.nav-link.icon-send-after:hover,
-.nav-link.icon-send-before:hover{
+.nav-link.icon-send-after:hover, .nav-link.icon-send-before:hover {
     transition: color 0.3s ease;
     color: #0DC143;
     border-bottom: 1px solid #0DC143;
 }
 
-.nav-link.icon-instagram-after:hover,
-.nav-link.icon-instagram-before:hover{
+.nav-link.icon-instagram-after:hover, .nav-link.icon-instagram-before:hover {
     transition: color 0.3s ease;
     color: #CE2589;
     border-bottom: 1px solid #CE2589;
 }
 
-.nav-link.icon-github-after:hover,
-.nav-link.icon-github-before:hover{
+.nav-link.icon-github-after:hover, .nav-link.icon-github-before:hover {
     transition: color 0.3s ease;
     color: #526AFF;
     border-bottom: 1px solid #526AFF;
 }
 
-.nav-link.icon-dribbble-after:hover,
-.nav-link.icon-dribbble-before:hover{
+.nav-link.icon-dribbble-after:hover, .nav-link.icon-dribbble-before:hover {
     transition: color 0.3s ease;
     color: #E74D89;
     border-bottom: 1px solid #E74D89;
 }
 
-.nav-link.icon-linkedin-after:hover,
-.nav-link.icon-linkedin-before:hover{
+.nav-link.icon-linkedin-after:hover, .nav-link.icon-linkedin-before:hover {
     transition: color 0.3s ease;
     color: #0e87ff;
-    border-bottom: 1px solid #0e87ff;;
+    border-bottom: 1px solid #0e87ff;
+    ;
 }
 
-
-.nav-link.icon-codepen-after:hover,
-.nav-link.icon-codepen-before:hover{
+.nav-link.icon-codepen-after:hover, .nav-link.icon-codepen-before:hover {
     transition: color 0.3s ease;
     color: #FFDD40;
     border-bottom: 1px solid #FFDD40;
@@ -180,16 +173,14 @@ a {
     content: 'X';
 }
 
-.icons.icon-mail-before,
-.icons.icon-mail-after {
+.icons.icon-mail-before, .icons.icon-mail-after {
     font-size: 3em;
     display: inline-block;
 }
 
-.icons.icon-x-before,
-.icons.icon-x-after {
-font-size: 2em;
-color: #333;
+.icons.icon-x-before, .icons.icon-x-after {
+    font-size: 2em;
+    color: #333;
 }
 
 #contato-header {
@@ -197,7 +188,6 @@ color: #333;
     padding-bottom: 1em;
     border-bottom: 2px solid white;
 }
-
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -243,9 +233,8 @@ color: #333;
     height: 100vh;
 }
 
-
 #footer-dev {
-    height:available;
+    height: available;
     background-color: rgba(0, 0, 0, 0.6);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
@@ -255,8 +244,9 @@ color: #333;
 }
 
 .size-footer {
-height: 100%;
+    height: 100%;
 }
+
 @media (max-width: 991px) {
     .btn-custom {
         margin: 10px 15px;
@@ -264,7 +254,7 @@ height: 100%;
     .nav-item a {
         margin-bottom: 20px;
     }
-    #logo-footer{
+    #logo-footer {
         margin-bottom: 25px;
     }
     h1 {
@@ -273,18 +263,17 @@ height: 100%;
     body {
         overflow-x: hidden;
     }
-    
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .apresentacao {
         padding-top: 0rem!important;
+    }
+    .hero-header {
+        height: auto;
+    }
 }
 
-.hero-header {
-    height: auto;
-}
-}
 .btn-outline-light {
     border: 2px solid #f8f9fa;
 }
@@ -301,9 +290,9 @@ height: 100%;
 }
 
 #copyright {
-display: inline;
-vertical-align:middle;
-font-size: 1.12em;
+    display: inline;
+    vertical-align: middle;
+    font-size: 1.12em;
 }
 
 .icons.icon-lime-before:hover {
@@ -316,13 +305,12 @@ font-size: 1.12em;
     color: #ef233c;
 }
 
-
 .icons.icon-heart-before {
-     padding: 0 0.1em;
-     font-size: 2em;
- }
+    padding: 0 0.1em;
+    font-size: 2em;
+}
 
- .icons.icon-heart-before:hover {
+.icons.icon-heart-before:hover {
     transition: color 0.3s ease;
     color: #ef233c;
 }
@@ -344,37 +332,6 @@ font-size: 1.12em;
     background-color: #fff;
 }
 
-
-
-@-webkit-keyframes fadeInUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 15%, 0);
-        transform: translate3d(0, 15%, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-}
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 15%, 0);
-        transform: translate3d(0, 15%, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-}
-.fadeInUp {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
-}
-
 .modal-easter {
     background: #fff;
     padding: 2.4rem;
@@ -383,7 +340,6 @@ font-size: 1.12em;
     max-width: 500px;
     border-radius: 0.25rem;
 }
-
 
 .modal-easter-overlay {
     width: 100%;
@@ -407,6 +363,7 @@ font-size: 1.12em;
 #form {
     max-width: 500px;
 }
+
 .button.new {
     margin-bottom: .8rem;
     display: inline-block;
