@@ -1,2 +1,2 @@
 # lima
-My website
+My personal website under development.
