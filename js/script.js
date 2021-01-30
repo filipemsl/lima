@@ -5,6 +5,15 @@ var hamburger = document.querySelector(".hamburger");
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
   });
-function mostrarModal () {
-  alert('Oops, essa função ainda não foi implementada :(')
+
+const Modal = {
+  open() {
+      // Abrir modal
+      // Adicionar a class active ao modal
+      document.querySelector('.modal-overlay').classList.add('active')
+  }, close() {
+      // Fechar o modal
+      // Remover a classe active do modal
+      document.querySelector('.modal-overlay').classList.remove('active')
+  }
 }
