@@ -69,35 +69,35 @@ a {
 
 .nav-link.icon-send-after:hover,
 .nav-link.icon-send-before:hover{
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #0DC143;
     border-bottom: 1px solid #0DC143;
 }
 
 .nav-link.icon-instagram-after:hover,
 .nav-link.icon-instagram-before:hover{
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #CE2589;
     border-bottom: 1px solid #CE2589;
 }
 
 .nav-link.icon-github-after:hover,
 .nav-link.icon-github-before:hover{
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #526AFF;
     border-bottom: 1px solid #526AFF;
 }
 
 .nav-link.icon-dribbble-after:hover,
 .nav-link.icon-dribbble-before:hover{
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #E74D89;
     border-bottom: 1px solid #E74D89;
 }
 
 .nav-link.icon-linkedin-after:hover,
 .nav-link.icon-linkedin-before:hover{
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #0e87ff;
     border-bottom: 1px solid #0e87ff;;
 }
@@ -105,7 +105,7 @@ a {
 
 .nav-link.icon-codepen-after:hover,
 .nav-link.icon-codepen-before:hover{
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #FFDD40;
     border-bottom: 1px solid #FFDD40;
 }
@@ -259,12 +259,12 @@ a {
 
 #copyright {
 display: inline;
-vertical-align:text-bottom;
+vertical-align:middle;
 font-size: 1.12em;
 }
 
 .icons.icon-lime-before:hover {
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #0cce6b;
 }
 
@@ -275,7 +275,7 @@ font-size: 1.12em;
  }
 
  .icons.icon-heart-before:hover {
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
     color: #ef233c;
 }
 
