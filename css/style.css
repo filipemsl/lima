@@ -1,5 +1,5 @@
 html,body {
-    height: 100%;
+    height: 100vh;
     scroll-behavior: smooth;
 }
 
@@ -28,6 +28,7 @@ h1 {
 }
 #home {
     margin-top: 3.9rem;
+    
 }
 
 a {
@@ -45,6 +46,7 @@ a {
     background: rgba(0, 0, 0, 0.6);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    z-index: 3;
 }
 
 .nav-link.icon-send-after {
@@ -174,10 +176,20 @@ a {
     content: '9';
 }
 
+.icon-x-after::after, .icon-x-before::before {
+    content: 'X';
+}
+
 .icons.icon-mail-before,
 .icons.icon-mail-after {
     font-size: 3em;
     display: inline-block;
+}
+
+.icons.icon-x-before,
+.icons.icon-x-after {
+font-size: 2em;
+color: #333;
 }
 
 #contato-header {
@@ -227,12 +239,23 @@ a {
     background: 0 0;
 }
 
+.hero-header {
+    height: 100vh;
+}
+
+
 #footer-dev {
+    height:available;
     background-color: rgba(0, 0, 0, 0.6);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     padding: 50px 0px 20px 0px;
-    position: relative;;
+    position: relative;
+    z-index: 1;
+}
+
+.size-footer {
+height: 100%;
 }
 @media (max-width: 991px) {
     .btn-custom {
@@ -244,8 +267,24 @@ a {
     #logo-footer{
         margin-bottom: 25px;
     }
+    h1 {
+        font-size: 2em;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    
 }
 
+@media (max-width: 767px){
+    .apresentacao {
+        padding-top: 0rem!important;
+}
+
+.hero-header {
+    height: auto;
+}
+}
 .btn-outline-light {
     border: 2px solid #f8f9fa;
 }
@@ -257,6 +296,10 @@ a {
     vertical-align: middle;
 }
 
+.text-easter {
+    margin-bottom: 15px;
+}
+
 #copyright {
 display: inline;
 vertical-align:middle;
@@ -266,6 +309,11 @@ font-size: 1.12em;
 .icons.icon-lime-before:hover {
     transition: color 0.3s ease;
     color: #0cce6b;
+}
+
+.icons.icon-x-before:hover {
+    transition: color 0.3s ease;
+    color: #ef233c;
 }
 
 
@@ -296,6 +344,8 @@ font-size: 1.12em;
     background-color: #fff;
 }
 
+
+
 @-webkit-keyframes fadeInUp {
     from {
         opacity: 0;
@@ -325,18 +375,17 @@ font-size: 1.12em;
     animation-name: fadeInUp;
 }
 
-.modal {
-    background: #f0f2f5;
+.modal-easter {
+    background: #fff;
     padding: 2.4rem;
     position: relative;
     width: 90%;
     max-width: 500px;
     border-radius: 0.25rem;
-    z-index: 9999;
 }
 
 
-.modal-overlay {
+.modal-easter-overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -347,9 +396,10 @@ font-size: 1.12em;
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    z-index: 99999;
 }
 
-.modal-overlay.active {
+.modal-easter-overlay.active {
     opacity: 1;
     visibility: visible;
 }
